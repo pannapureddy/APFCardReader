@@ -29,7 +29,6 @@
     self.apfWebView.delegate = self;
     dtdev = [DTDevices sharedDevice];
     dtdev.delegate = self;
-    [dtdev connect];
     [self connectionState:dtdev.connstate];
     NSURL *apfURL = [NSURL URLWithString:@"http://www.asfint.com/asfposnew/login.aspx"];
     NSURLRequest *requestURL = [[NSURLRequest alloc] initWithURL:apfURL];
@@ -40,7 +39,6 @@
     status = NO;
     NSTimer *timer = nil;
     timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(blinkStatus:) userInfo:nil repeats:YES];
-    
 }
 
 - (void)connectionState:(int)state
@@ -56,6 +54,7 @@
             status = NO;
             self.statusLabel.text = @"Not Connected";
             self.statusButton.backgroundColor = [UIColor redColor];
+            [dtdev connect];
             break;
         default:
             break;
@@ -169,14 +168,6 @@
     }
     [self hideProgressHUD];
     [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
-}
-
-- (void)showStatusView {
-    StatusView *statusView = [StatusView instance];
-    statusView setFrame:CGRectMake();
-    [UIView beginAnimations:nil context:NULL];
-    [UIView setAnimationDuration:1.0f];
-    
 }
 
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error

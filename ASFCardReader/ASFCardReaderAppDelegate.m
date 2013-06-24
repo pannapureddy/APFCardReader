@@ -6,17 +6,17 @@
 //  Copyright (c) 2013 Purna Annapureddy. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "ASFCardReaderAppDelegate.h"
 
 #import "ParentViewController.h"
 
-@implementation AppDelegate
+@implementation ASFCardReaderAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[ParentViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    self.viewController = [[ParentViewController alloc] initWithNibName:@"ParentViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;

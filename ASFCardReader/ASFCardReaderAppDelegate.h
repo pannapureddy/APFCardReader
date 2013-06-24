@@ -10,7 +10,7 @@
 
 @class ParentViewController;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface ASFCardReaderAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

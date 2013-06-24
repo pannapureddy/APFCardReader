@@ -7,53 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B3F0E1917789B08000B1EF5 /* ASFCardReaderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3F0E0917789B08000B1EF5 /* ASFCardReaderAppDelegate.m */; };
+		1B3F0E1A17789B08000B1EF5 /* ASFCardReader-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B3F0E0A17789B08000B1EF5 /* ASFCardReader-Info.plist */; };
+		1B3F0E1B17789B08000B1EF5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B3F0E0C17789B08000B1EF5 /* Default-568h@2x.png */; };
+		1B3F0E1C17789B08000B1EF5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B3F0E0D17789B08000B1EF5 /* Default.png */; };
+		1B3F0E1D17789B08000B1EF5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B3F0E0E17789B08000B1EF5 /* Default@2x.png */; };
+		1B3F0E1E17789B08000B1EF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B3F0E0F17789B08000B1EF5 /* InfoPlist.strings */; };
+		1B3F0E1F17789B08000B1EF5 /* ParentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B3F0E1117789B08000B1EF5 /* ParentViewController.xib */; };
+		1B3F0E2017789B08000B1EF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3F0E1317789B08000B1EF5 /* main.m */; };
+		1B3F0E2117789B08000B1EF5 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3F0E1517789B08000B1EF5 /* MBProgressHUD.m */; };
+		1B3F0E2217789B08000B1EF5 /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3F0E1717789B08000B1EF5 /* ParentViewController.m */; };
 		1B77758A1774A7F400E1C036 /* libdtdev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B7775891774A7F400E1C036 /* libdtdev.a */; };
 		1B77758C1774A80400E1C036 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B77758B1774A80400E1C036 /* ExternalAccessory.framework */; };
 		1B77758D1774A81500E1C036 /* DTDevices.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B7775881774A7F400E1C036 /* DTDevices.h */; };
 		1B77758F1774B17100E1C036 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B77758E1774B17100E1C036 /* QuartzCore.framework */; };
-		1B7775941774F1D800E1C036 /* StatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7775931774F1D800E1C036 /* StatusView.m */; };
-		1B7775971774F49F00E1C036 /* CustomStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7775961774F49F00E1C036 /* CustomStatus.m */; };
 		1BBA74AB177494D400E3FAE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBA74AA177494D400E3FAE5 /* UIKit.framework */; };
 		1BBA74AD177494D400E3FAE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBA74AC177494D400E3FAE5 /* Foundation.framework */; };
 		1BBA74AF177494D400E3FAE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBA74AE177494D400E3FAE5 /* CoreGraphics.framework */; };
-		1BBA74B5177494D400E3FAE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BBA74B3177494D400E3FAE5 /* InfoPlist.strings */; };
-		1BBA74B7177494D400E3FAE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBA74B6177494D400E3FAE5 /* main.m */; };
-		1BBA74BB177494D400E3FAE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBA74BA177494D400E3FAE5 /* AppDelegate.m */; };
-		1BBA74BD177494D400E3FAE5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BBA74BC177494D400E3FAE5 /* Default.png */; };
-		1BBA74BF177494D400E3FAE5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BBA74BE177494D400E3FAE5 /* Default@2x.png */; };
-		1BBA74C1177494D400E3FAE5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BBA74C0177494D400E3FAE5 /* Default-568h@2x.png */; };
-		1BBA74C4177494D400E3FAE5 /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBA74C3177494D400E3FAE5 /* ParentViewController.m */; };
-		1BBA74C7177494D400E3FAE5 /* ParentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BBA74C5177494D400E3FAE5 /* ParentViewController.xib */; };
-		1BBA74CF177498AA00E3FAE5 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBA74CE177498AA00E3FAE5 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B3F0E0817789B08000B1EF5 /* ASFCardReaderAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFCardReaderAppDelegate.h; sourceTree = "<group>"; };
+		1B3F0E0917789B08000B1EF5 /* ASFCardReaderAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFCardReaderAppDelegate.m; sourceTree = "<group>"; };
+		1B3F0E0A17789B08000B1EF5 /* ASFCardReader-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ASFCardReader-Info.plist"; path = "ASFCardReader/ASFCardReader-Info.plist"; sourceTree = "<group>"; };
+		1B3F0E0B17789B08000B1EF5 /* ASFCardReader-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ASFCardReader-Prefix.pch"; path = "ASFCardReader/ASFCardReader-Prefix.pch"; sourceTree = "<group>"; };
+		1B3F0E0C17789B08000B1EF5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "ASFCardReader/Default-568h@2x.png"; sourceTree = "<group>"; };
+		1B3F0E0D17789B08000B1EF5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ASFCardReader/Default.png; sourceTree = "<group>"; };
+		1B3F0E0E17789B08000B1EF5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "ASFCardReader/Default@2x.png"; sourceTree = "<group>"; };
+		1B3F0E1017789B08000B1EF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B3F0E1217789B08000B1EF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ParentViewController.xib; sourceTree = "<group>"; };
+		1B3F0E1317789B08000B1EF5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ASFCardReader/main.m; sourceTree = "<group>"; };
+		1B3F0E1417789B08000B1EF5 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = ASFCardReader/MBProgressHUD.h; sourceTree = "<group>"; };
+		1B3F0E1517789B08000B1EF5 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = ASFCardReader/MBProgressHUD.m; sourceTree = "<group>"; };
+		1B3F0E1617789B08000B1EF5 /* ParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentViewController.h; sourceTree = "<group>"; };
+		1B3F0E1717789B08000B1EF5 /* ParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentViewController.m; sourceTree = "<group>"; };
 		1B7775881774A7F400E1C036 /* DTDevices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTDevices.h; sourceTree = "<group>"; };
 		1B7775891774A7F400E1C036 /* libdtdev.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libdtdev.a; sourceTree = "<group>"; };
 		1B77758B1774A80400E1C036 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 		1B77758E1774B17100E1C036 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		1B7775921774F1D800E1C036 /* StatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusView.h; sourceTree = "<group>"; };
-		1B7775931774F1D800E1C036 /* StatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusView.m; sourceTree = "<group>"; };
-		1B7775951774F49F00E1C036 /* CustomStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomStatus.h; sourceTree = "<group>"; };
-		1B7775961774F49F00E1C036 /* CustomStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomStatus.m; sourceTree = "<group>"; };
-		1BBA74A7177494D400E3FAE5 /* APFCardReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APFCardReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BBA74A7177494D400E3FAE5 /* ASFCardReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASFCardReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BBA74AA177494D400E3FAE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1BBA74AC177494D400E3FAE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1BBA74AE177494D400E3FAE5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1BBA74B2177494D400E3FAE5 /* APFCardReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APFCardReader-Info.plist"; sourceTree = "<group>"; };
-		1BBA74B4177494D400E3FAE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1BBA74B6177494D400E3FAE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1BBA74B8177494D400E3FAE5 /* APFCardReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APFCardReader-Prefix.pch"; sourceTree = "<group>"; };
-		1BBA74B9177494D400E3FAE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1BBA74BA177494D400E3FAE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1BBA74BC177494D400E3FAE5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		1BBA74BE177494D400E3FAE5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		1BBA74C0177494D400E3FAE5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		1BBA74C2177494D400E3FAE5 /* ParentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParentViewController.h; sourceTree = "<group>"; };
-		1BBA74C3177494D400E3FAE5 /* ParentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParentViewController.m; sourceTree = "<group>"; };
-		1BBA74C6177494D400E3FAE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ParentViewController.xib; sourceTree = "<group>"; };
-		1BBA74CD177498AA00E3FAE5 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		1BBA74CE177498AA00E3FAE5 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,21 +69,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B7775911774F1B900E1C036 /* StatusViews */ = {
+		1B3F0E0717789B08000B1EF5 /* ASFCardReader */ = {
 			isa = PBXGroup;
 			children = (
-				1B7775921774F1D800E1C036 /* StatusView.h */,
-				1B7775931774F1D800E1C036 /* StatusView.m */,
-				1B7775951774F49F00E1C036 /* CustomStatus.h */,
-				1B7775961774F49F00E1C036 /* CustomStatus.m */,
+				1B3F0E0817789B08000B1EF5 /* ASFCardReaderAppDelegate.h */,
+				1B3F0E0917789B08000B1EF5 /* ASFCardReaderAppDelegate.m */,
+				1B3F0E1617789B08000B1EF5 /* ParentViewController.h */,
+				1B3F0E1717789B08000B1EF5 /* ParentViewController.m */,
+				1B3F0E2317789B1F000B1EF5 /* SuportingFiles */,
 			);
-			path = StatusViews;
+			path = ASFCardReader;
+			sourceTree = "<group>";
+		};
+		1B3F0E2317789B1F000B1EF5 /* SuportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1B3F0E0C17789B08000B1EF5 /* Default-568h@2x.png */,
+				1B3F0E0A17789B08000B1EF5 /* ASFCardReader-Info.plist */,
+				1B3F0E0B17789B08000B1EF5 /* ASFCardReader-Prefix.pch */,
+				1B3F0E0D17789B08000B1EF5 /* Default.png */,
+				1B3F0E0E17789B08000B1EF5 /* Default@2x.png */,
+				1B3F0E0F17789B08000B1EF5 /* InfoPlist.strings */,
+				1B3F0E1117789B08000B1EF5 /* ParentViewController.xib */,
+				1B3F0E1317789B08000B1EF5 /* main.m */,
+				1B3F0E1417789B08000B1EF5 /* MBProgressHUD.h */,
+				1B3F0E1517789B08000B1EF5 /* MBProgressHUD.m */,
+			);
+			name = SuportingFiles;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		1BBA749E177494D400E3FAE5 = {
 			isa = PBXGroup;
 			children = (
-				1BBA74B0177494D400E3FAE5 /* APFCardReader */,
+				1B3F0E0717789B08000B1EF5 /* ASFCardReader */,
 				1BBA74A9177494D400E3FAE5 /* Frameworks */,
 				1BBA74A8177494D400E3FAE5 /* Products */,
 			);
@@ -97,7 +111,7 @@
 		1BBA74A8177494D400E3FAE5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1BBA74A7177494D400E3FAE5 /* APFCardReader.app */,
+				1BBA74A7177494D400E3FAE5 /* ASFCardReader.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,42 +130,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1BBA74B0177494D400E3FAE5 /* APFCardReader */ = {
-			isa = PBXGroup;
-			children = (
-				1B7775911774F1B900E1C036 /* StatusViews */,
-				1BBA74B9177494D400E3FAE5 /* AppDelegate.h */,
-				1BBA74BA177494D400E3FAE5 /* AppDelegate.m */,
-				1BBA74C2177494D400E3FAE5 /* ParentViewController.h */,
-				1BBA74C3177494D400E3FAE5 /* ParentViewController.m */,
-				1BBA74C5177494D400E3FAE5 /* ParentViewController.xib */,
-				1BBA74B1177494D400E3FAE5 /* Supporting Files */,
-			);
-			path = APFCardReader;
-			sourceTree = "<group>";
-		};
-		1BBA74B1177494D400E3FAE5 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1BBA74CD177498AA00E3FAE5 /* MBProgressHUD.h */,
-				1BBA74CE177498AA00E3FAE5 /* MBProgressHUD.m */,
-				1BBA74B2177494D400E3FAE5 /* APFCardReader-Info.plist */,
-				1BBA74B3177494D400E3FAE5 /* InfoPlist.strings */,
-				1BBA74B6177494D400E3FAE5 /* main.m */,
-				1BBA74B8177494D400E3FAE5 /* APFCardReader-Prefix.pch */,
-				1BBA74BC177494D400E3FAE5 /* Default.png */,
-				1BBA74BE177494D400E3FAE5 /* Default@2x.png */,
-				1BBA74C0177494D400E3FAE5 /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1BBA74A6177494D400E3FAE5 /* APFCardReader */ = {
+		1BBA74A6177494D400E3FAE5 /* ASFCardReader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BBA74CA177494D400E3FAE5 /* Build configuration list for PBXNativeTarget "APFCardReader" */;
+			buildConfigurationList = 1BBA74CA177494D400E3FAE5 /* Build configuration list for PBXNativeTarget "ASFCardReader" */;
 			buildPhases = (
 				1BBA74A3177494D400E3FAE5 /* Sources */,
 				1BBA74A4177494D400E3FAE5 /* Frameworks */,
@@ -161,9 +145,9 @@
 			);
 			dependencies = (
 			);
-			name = APFCardReader;
+			name = ASFCardReader;
 			productName = APFCardReader;
-			productReference = 1BBA74A7177494D400E3FAE5 /* APFCardReader.app */;
+			productReference = 1BBA74A7177494D400E3FAE5 /* ASFCardReader.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -175,7 +159,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Purna Annapureddy";
 			};
-			buildConfigurationList = 1BBA74A2177494D400E3FAE5 /* Build configuration list for PBXProject "APFCardReader" */;
+			buildConfigurationList = 1BBA74A2177494D400E3FAE5 /* Build configuration list for PBXProject "ASFCardReader" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -187,7 +171,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1BBA74A6177494D400E3FAE5 /* APFCardReader */,
+				1BBA74A6177494D400E3FAE5 /* ASFCardReader */,
 			);
 		};
 /* End PBXProject section */
@@ -197,11 +181,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BBA74B5177494D400E3FAE5 /* InfoPlist.strings in Resources */,
-				1BBA74BD177494D400E3FAE5 /* Default.png in Resources */,
-				1BBA74BF177494D400E3FAE5 /* Default@2x.png in Resources */,
-				1BBA74C1177494D400E3FAE5 /* Default-568h@2x.png in Resources */,
-				1BBA74C7177494D400E3FAE5 /* ParentViewController.xib in Resources */,
+				1B3F0E1A17789B08000B1EF5 /* ASFCardReader-Info.plist in Resources */,
+				1B3F0E1B17789B08000B1EF5 /* Default-568h@2x.png in Resources */,
+				1B3F0E1C17789B08000B1EF5 /* Default.png in Resources */,
+				1B3F0E1D17789B08000B1EF5 /* Default@2x.png in Resources */,
+				1B3F0E1E17789B08000B1EF5 /* InfoPlist.strings in Resources */,
+				1B3F0E1F17789B08000B1EF5 /* ParentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,32 +197,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BBA74B7177494D400E3FAE5 /* main.m in Sources */,
-				1BBA74BB177494D400E3FAE5 /* AppDelegate.m in Sources */,
-				1BBA74C4177494D400E3FAE5 /* ParentViewController.m in Sources */,
-				1BBA74CF177498AA00E3FAE5 /* MBProgressHUD.m in Sources */,
-				1B7775941774F1D800E1C036 /* StatusView.m in Sources */,
-				1B7775971774F49F00E1C036 /* CustomStatus.m in Sources */,
+				1B3F0E1917789B08000B1EF5 /* ASFCardReaderAppDelegate.m in Sources */,
+				1B3F0E2017789B08000B1EF5 /* main.m in Sources */,
+				1B3F0E2117789B08000B1EF5 /* MBProgressHUD.m in Sources */,
+				1B3F0E2217789B08000B1EF5 /* ParentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1BBA74B3177494D400E3FAE5 /* InfoPlist.strings */ = {
+		1B3F0E0F17789B08000B1EF5 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1BBA74B4177494D400E3FAE5 /* en */,
+				1B3F0E1017789B08000B1EF5 /* en */,
 			);
 			name = InfoPlist.strings;
+			path = ASFCardReader;
 			sourceTree = "<group>";
 		};
-		1BBA74C5177494D400E3FAE5 /* ParentViewController.xib */ = {
+		1B3F0E1117789B08000B1EF5 /* ParentViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1BBA74C6177494D400E3FAE5 /* en */,
+				1B3F0E1217789B08000B1EF5 /* en */,
 			);
 			name = ParentViewController.xib;
+			path = ASFCardReader;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -305,14 +290,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "APFCardReader/APFCardReader-Prefix.pch";
-				INFOPLIST_FILE = "APFCardReader/APFCardReader-Info.plist";
+				GCC_PREFIX_HEADER = "APFCardReader/ASFCardReader-Prefix.pch";
+				INFOPLIST_FILE = "APFCardReader/ASFCardReader-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ASFCardReader;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -321,14 +306,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "APFCardReader/APFCardReader-Prefix.pch";
-				INFOPLIST_FILE = "APFCardReader/APFCardReader-Info.plist";
+				GCC_PREFIX_HEADER = "APFCardReader/ASFCardReader-Prefix.pch";
+				INFOPLIST_FILE = "APFCardReader/ASFCardReader-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ASFCardReader;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -336,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1BBA74A2177494D400E3FAE5 /* Build configuration list for PBXProject "APFCardReader" */ = {
+		1BBA74A2177494D400E3FAE5 /* Build configuration list for PBXProject "ASFCardReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BBA74C8177494D400E3FAE5 /* Debug */,
@@ -345,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BBA74CA177494D400E3FAE5 /* Build configuration list for PBXNativeTarget "APFCardReader" */ = {
+		1BBA74CA177494D400E3FAE5 /* Build configuration list for PBXNativeTarget "ASFCardReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BBA74CB177494D400E3FAE5 /* Debug */,

@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "MBProgressHUD.h"
 #import "DTDevices.h"
-#import "StatusView.h"
 
 @interface ParentViewController : UIViewController<UIWebViewDelegate, MBProgressHUDDelegate, DTDeviceDelegate>
 {
